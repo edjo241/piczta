@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+}
+.app{
+  background-color: #fafafa;
+  height: 100vh;
+}
+.app__header{
+  padding: 20px;
+  background-color: white;
+  border: 1px solid lightgray;
+  font-family: Monospace;
+  font-size: 1.5em;
+  position: sticky;
+    top: 0;
+    z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app__modal{
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.app__posts{
+  padding: 20px;
+  margin-left: 100px;
+ 
+}
+
+.app__logout{
+  display:grid;
+  place-items: center;
+}
+.app__logout>h4{
+  font-size: 2em;
+  padding: 80px;
+}
+
+.app__button2{
+  margin-left: 4px;
+  padding: 8px;
+  color: white;
+  font-size: 0.6em;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.text{
+  position: absolute;
+  font-size: 12px;
+  bottom: -5px;
+}
+.app__upload{
+  margin-right: 5px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.app__devInfo{
+  margin-top: -50px;
+  color: gray;
+}
+

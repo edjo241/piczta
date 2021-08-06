@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+}
+.profile__header{
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    font-family: Monospace;
+    font-size: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.profile__postContainer{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.profile__post{
+ 
+        max-width: 300px;
+        background-color:white;
+        border: 1px solid lightgray;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    
+}
+
+.profile__image{
+    object-fit: contain;
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+}
+
+.Profile__postDelete{
+    padding-left: 270px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: gray;
+}
+
+.profile__info{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile__info>input{
+    margin-left: 110px;
+    padding-bottom: 5px;
+}
+
+.profile__info>h4{
+    padding-bottom: 10px;
+}
+
+
+.profile__avatar{
+    object-fit: contain;
+    height: 20px;
+    width: 40px;
+}
+button:disabled{
+    color: #007bff;
+    background-color: transparent;
+}
+button{
+    background-color: #007bff;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.profilePost__container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal__button{
+    display: flex;
+    justify-content: flex-end;
+}
+.modal__delete{
+    cursor: pointer;
+    background-color: rgb(218, 28, 28);
+    margin-right: 3px;
+    padding: 6px;
+}
+.modal__cancel{
+    cursor: pointer;
+    
+}
+.profile__noPost{
+    padding-top: 50px;
+    font-size: 2em;
+}
+
+.test{
+    display: grid;
+    place-items: center;
+}
+
+.profile__headerName::before{
+    content: "<";
+    font-family: 800;
+    color:rgb(27, 45, 128);
+    font-size:1.5em;
+}
+.profile__headerName{
+    font-size: 2.5em;
+}
